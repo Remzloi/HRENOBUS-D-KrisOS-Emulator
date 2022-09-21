@@ -1,1 +1,1 @@
-# ХРЕНОБУС-D-KrisOS-Emulator
+# ХРЕНОБУС-D-KrisOS-Эмулятор
