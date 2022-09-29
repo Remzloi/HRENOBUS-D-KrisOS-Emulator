@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="browser">
+    <method name="doButtonClickLeft">
+      <elementLoadContent object="browser" object-type="object" path="edit" path-type="object" sync="" sync-type=""/>
+    </method>
+  <method name="doBrowserRunning">
+      <elementShow object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doBrowserLoad">
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doConstruct">
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doBrowserFail">
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="desktop">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doMediaViewConstruct">
+      <elementLoadContent object="player" object-type="object" path="https://lexatelevisionproektsites.on.drv.tw/krisos1Betaboot.mp4" path-type="string" sync="1" sync-type=""/>
+    </method>
+  </class>
+</root>

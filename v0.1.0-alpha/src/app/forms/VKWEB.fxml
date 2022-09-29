@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287" prefWidth="198" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#000000" focusTraversable="false" height="16" id="rect" layoutX="0" layoutY="0" strokeType="INSIDE" strokeWidth="2" styleClass="" width="200"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="2" layoutY="0" prefHeight="17" prefWidth="196" styleClass="label " text="VK Web" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="10"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <WebView AnchorPane.bottomAnchor="-1" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-2" AnchorPane.topAnchor="16" focusTraversable="true" id="browser" layoutX="0" layoutY="16" prefHeight="272" prefWidth="200"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-browser" url="https://m.vk.com" visible="1"/>
+  </children>
+</AnchorPane>

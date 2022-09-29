@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  <method name="doImageAltConstruct">
+      <elementHide object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <elementShow object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doLabelClickLeft">
+      <elementShow object="fragment" object-type="object"/>
+    </method>
+  
+  
+  
+  <method name="doLabel3ClickLeft">
+      <elementShow object="browser" object-type="object"/>
+    </method>
+  
+  
+  <method name="doButtonClickLeft">
+      <showForm form="Debug" form-type="form"/>
+    </method>
+  
+    
+  <method name="doLabel4ClickLeft">
+      <elementShow object="settings" object-type="object"/>
+    </method>
+  <method name="doConstruct">
+      <elementHide object="vkweb" object-type="object"/>
+      <elementHide object="labelAlt" object-type="object"/>
+      <elementHide object="fragment" object-type="object"/>
+      <elementHide object="browser" object-type="object"/>
+      <elementHide object="pashalka" object-type="object"/>
+      <elementHide object="settings" object-type="object"/>
+      <elementHide object="labelAlt" object-type="object"/>
+      <sleep sync="" sync-type="" value="1246" value-type="integer"/>
+    </method>
+  <method name="doImage4ClickLeft">
+      <elementHide object="fragment" object-type="object"/>
+      <elementHide object="browser" object-type="object"/>
+      <elementHide object="vkweb" object-type="object"/>
+      <elementHide object="pashalka" object-type="object"/>
+      <elementHide object="settings" object-type="object"/>
+    </method>
+  </class>
+</root>

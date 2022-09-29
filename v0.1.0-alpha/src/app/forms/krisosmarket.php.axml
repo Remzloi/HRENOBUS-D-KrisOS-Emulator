@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="krisosmarket">
+    
+  <method name="doButtonClickLeft">
+      <elementEnabledOff object="~sender" object-type="object"/>
+      <elementShow object="progressBar" object-type="object"/>
+      <sleep sync="" sync-type="" value="5000" value-type="integer"/>
+      <elementHide object="progressBar" object-type="object"/>
+      <elementShow object="buttonAlt" object-type="object"/>
+    </method>
+  
+  <method name="doButtonAltClickLeft">
+      <elementShow object="form('MainForm')-&gt;vkweb" object-type="object"/>
+      <elementHide object="form('MainForm')-&gt;fragment" object-type="object"/>
+    </method>
+  <method name="doConstruct">
+      <elementHide object="progressBar" object-type="object"/>
+      <elementHide object="buttonAlt" object-type="object"/>
+    </method>
+  </class>
+</root>
